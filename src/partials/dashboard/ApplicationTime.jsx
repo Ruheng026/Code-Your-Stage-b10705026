@@ -41,13 +41,13 @@ function ApplicationTime() {
           </div>
           { /* <div className="text-sm font-semibold text-white px-1.5 bg-emerald-500 rounded-full">
             +49%
-          </div> */}
+          </div> */ }
         </div>
       </div>
         
       <div className="grow">
         {/* Change the height attribute to adjust the chart height */}
-        {labels && <LineChart data={chartData} width={389} height={250} />}
+        {labels && <LineChart data={chartData} width={389} height={400} />}
       </div>
     </div>
   );
